@@ -1,5 +1,31 @@
 # Currency-Convert-JS
 
+**Features:**
+- Free & Blazing Fast response
+- No Rate limits
+- 150+ Currencies, Including Common Cryptocurrencies
+- Daily Updated
+
+
+**URL Structure:**
+
+`https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@{apiVersion}/{date}/{endpoint}`
+
+**Formats:**
+
+`date`
+
+The date should either be `latest` or in `YYYY-MM-DD` format <br>
+**Note:** Historical rates are only available for last 3 months and some dates may [be missing](https://github.com/fawazahmed0/currency-api/issues/32)
+
+The Endpoints Supports HTTP GET Method and returns the data in two formats:
+
+`/{endpoint}.json`
+
+`/{endpoint}.min.json`
+
+The above formats also work for fallback i.e if `.min.json` link fails, you can use `.json` link and vice versa
+
 AED: "AE",
     AFN: "AF",
     XCD: "AG",
